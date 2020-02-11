@@ -1,7 +1,7 @@
 # Digital-Craft-Spring-20
 
 ## Homework Week 1
-* [blog emtry] ()
+* [blog entry] ()
 
 ## Homework Week 2
 * [sketch 1]()
