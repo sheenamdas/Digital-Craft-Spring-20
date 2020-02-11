@@ -1,7 +1,7 @@
 # Digital-Craft-Spring-20
 
 ## Homework Week 1
-* [blog entry] (https://portfolio.newschool.edu/sheenamdas/2020/01/23/creative-coding-and-reflection/)
+* [blog entry](https://portfolio.newschool.edu/sheenamdas/2020/01/23/creative-coding-and-reflection/)
 
 ## Homework Week 2
 * [sketch 1](https://sheenamdas.github.io/Digital-Craft-Spring-20/week_2/home_work/sketch_1/index.html)
