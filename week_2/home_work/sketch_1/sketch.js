@@ -9,7 +9,23 @@ function setup() {
 
 function draw() {
 
- fill(700);
+//  fill(700);
+//   rect(0,0, 820, 720);
+//   fill(1)
+//     strokeWeight(0);
+//   fill(100,100,100);
+//    //main rect that is static
+//   rect(100,100,500,500)
+   
+// //little squares that move
+//   fill(12);
+//  rect(mouseX,400,100,100)
+//   rect(mouseX,400,100,100)
+
+//   rect(300,mouseY,100,100);
+//   rect(300,mouseY*2,100,100);
+//    rect(300,mouseY/2,100,100);
+  fill(700);
   rect(0,0, 820, 720);
   fill(1)
     strokeWeight(0);
@@ -18,15 +34,8 @@ function draw() {
   rect(100,100,500,500)
    
 //little squares that move
-//   fill(12);
-//  rect(mouseX,400,100,100)
-//   rect(mouseX,400,100,100)
-
-//   rect(300,mouseY,100,100);
-//   rect(300,mouseY*2,100,100);
-//    rect(300,mouseY/2,100,100);
-  
- for (x = 100; x < width; x+=200){
+  fill(12);
+  for (x = 100; x < width; x+=200){
     for (y = 100; y < height; y+= 200){
       
  rect(mouseX*2,y,100,100)
@@ -37,6 +46,8 @@ function draw() {
   rect(x,mouseY*2,100,100);
    rect(x,mouseY/2,100,100);
     }
+  
+  }
   
 
 
