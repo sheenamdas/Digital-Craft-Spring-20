@@ -18,15 +18,25 @@ function draw() {
   rect(100,100,500,500)
    
 //little squares that move
-  fill(12);
- rect(mouseX,400,100,100)
-  rect(mouseX,400,100,100)
+//   fill(12);
+//  rect(mouseX,400,100,100)
+//   rect(mouseX,400,100,100)
 
-  rect(300,mouseY,100,100);
-  rect(300,mouseY*2,100,100);
-   rect(300,mouseY/2,100,100);
+//   rect(300,mouseY,100,100);
+//   rect(300,mouseY*2,100,100);
+//    rect(300,mouseY/2,100,100);
   
+ for (x = 100; x < width; x+=200){
+    for (y = 100; y < height; y+= 200){
+      
+ rect(mouseX*2,y,100,100)
+  rect(mouseX,y,100,100)
+      rect(mouseX/2, y, 100, 100);
 
+  rect(x,mouseY,100,100);
+  rect(x,mouseY*2,100,100);
+   rect(x,mouseY/2,100,100);
+    }
   
 
 
