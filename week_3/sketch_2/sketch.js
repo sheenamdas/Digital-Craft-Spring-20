@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(400,400);
+  createCanvas(800,800);
 
  
   
@@ -9,10 +9,7 @@ function setup() {
 function draw() {
 background(200);
   
-  //underside
-  noStroke();
-  fill(150);
-   ellipse(mouseX -15, mouseY -15, mouseX-15, mouseY-15);
+ 
 //web- background
  for(x=0; x<=width ;x+=30){
 for(y=0; y <= height; y +=30){
@@ -39,115 +36,121 @@ line(y, x, mouseX, mouseY);
 }
 }
  
+ 
+
 
      //body shadow
   fill(100)
   noStroke();
-  ellipse(mouseX - 10, mouseY + 20, mouseX - 10, mouseY -10)
+  ellipse(mouseX - 20, mouseY + 30, mouseX - 10, mouseY -10)
   
-  
- 
-  
-    //legs
+   //legs
+  //top left
   noFill();
   strokeWeight(20);
   stroke(0)
- line(mouseX-90,mouseY-90,40 ,50)
+ line(mouseX-150,mouseY-350,100 ,150)
    //shadow
     strokeWeight(5);
   stroke(100)
-  line(mouseX-90,mouseY-80, 45,60)
+  line(mouseX-140,mouseY-350, 110,150)
     //line
    noFill();
   strokeWeight(20);
   stroke(0)
-  line(mouseX-90, mouseY-90, mouseX, mouseY)
+  line(mouseX-150, mouseY-350, mouseX, mouseY)
+  
+  
   //middle left
-  line(mouseX-100,mouseY-20,10, 300);
+  line(mouseX-200,mouseY-280,100, 300);
   //shadow
     strokeWeight(5);
   stroke(100)
-  line(mouseX-90,mouseY-20, 20,300)
+  line(mouseX-190,mouseY-280, 110,300)
     //line
    noFill();
   strokeWeight(20);
   stroke(0)
-  line(mouseX-100, mouseY-20, mouseX, mouseY);
+  line(mouseX-200, mouseY-280, mouseX, mouseY);
+  
+  
   //3rd left
-  line(mouseX-100, mouseY-50, 20, 150);
+  line(mouseX-230, mouseY-170, 50, 380);
   //shadow
     strokeWeight(5);
   stroke(100)
-  line(mouseX-90,mouseY-50, 25,160)
+  line(mouseX-220,mouseY-170, 60,380)
     //line
    noFill();
   strokeWeight(20);
   stroke(0)
-  line(mouseX-100, mouseY-50, mouseX, mouseY);
+  line(mouseX-230, mouseY-170, mouseX, mouseY);
   
   //left bottom
-  line(mouseX-90,mouseY+60, 10, 380);
+  line(mouseX-250,mouseY-80, 90, 600);
      //shadow
   strokeWeight(5);
   stroke(100)
-  line(mouseX-85,mouseY+70, 15,390)
+  line(mouseX-240,mouseY-80, 100,600)
     //line
    noFill();
   strokeWeight(20);
   stroke(0)
-  line(mouseX-90, mouseY+60, mouseX, mouseY);
-  
-  //top right
-  line(mouseX+90, mouseY -100,370, 20);
-   //shadow
-  strokeWeight(5);
-  stroke(100)
-  line(mouseX + 100, mouseY - 90,370, 30)
-    //line
-   noFill();
-  strokeWeight(20);
-  stroke(0)
-  line(mouseX+90, mouseY-100, mouseX, mouseY);
-  
-  //2nd right
-  line(mouseX+120,mouseY-50, 360,100);
-   //shadow
-  strokeWeight(5);
-  stroke(100)
-  line(mouseX + 120, mouseY -40, 360, 110)
-  //line
-   noFill();
-  strokeWeight(20);
-  stroke(0)
-  line(mouseX +120, mouseY-50, mouseX, mouseY);
-
-  //3rd right
-  //line
-  line(mouseX+150,mouseY, 360, 250);
-   //shadow
-  strokeWeight(5);
-  stroke(100)
-   line(mouseX+145,mouseY +10, 350, 260)
-   //line
-  noFill();
-  strokeWeight(20);
-  stroke(0)
-  line(mouseX+150, mouseY, mouseX, mouseY);
-  
-  //bottom right
+  line(mouseX-250, mouseY-80, mouseX, mouseY);
+    //top right
 //line
-  line(380, 380, mouseX + 160,mouseY +80);
+  line(mouseX +190, mouseY -330, 550, 110)
+ 
    noFill();
     //shadow
   strokeWeight(5);
   stroke(100)
-    line(370, 390, mouseX + 150,mouseY +90);
+    line(mouseX +180, mouseY -330, 540, 110);
   //line
   noFill();
   strokeWeight(20);
   stroke(0)
-  line(mouseX +160, mouseY +80, mouseX, mouseY);
+   line(mouseX +190, mouseY -330, mouseX,mouseY);
+  //top right
+  
+  line(mouseX+200, mouseY -300,650, 250);
+   //shadow
+  strokeWeight(5);
+  stroke(100)
+  line(mouseX + 190, mouseY - 300,640, 250)
+    //line
+   noFill();
+  strokeWeight(20);
+  stroke(0)
+  line(mouseX+200, mouseY-300, mouseX, mouseY);
   
+  
+  //2nd right
+  line(mouseX+300,mouseY-150, 700,300);
+   //shadow
+  strokeWeight(5);
+  stroke(100)
+  line(mouseX + 290, mouseY -150, 690, 300)
+  //line
+   noFill();
+  strokeWeight(20);
+  stroke(0)
+  line(mouseX+300,mouseY-150, mouseX, mouseY);
+
+  //3rd right
+  //line
+  line(mouseX+380,mouseY-100, 720, 460);
+   //shadow
+  strokeWeight(5);
+  stroke(100)
+   line(mouseX+370,mouseY -100, 710, 460)
+   //line
+  noFill();
+  strokeWeight(20);
+  stroke(0)
+  line(mouseX+380, mouseY-100, mouseX, mouseY);
+  
+
   
   //Moving Circle-Center Body
 
@@ -156,30 +159,32 @@ line(y, x, mouseX, mouseY);
 ellipse(mouseX, mouseY, mouseX, mouseY);
   
   
-    //head
-  noStroke();
+    //head shadow
+ fill(60)
+  ellipse(mouseX +110, mouseY+140,mouseX -40, mouseY-50);
   fill(0)
-  ellipse(mouseX +50, mouseY+100,mouseX -100, mouseY-100);
-  //head shadow
+  ellipse(mouseX +130, mouseY+140,mouseX -40, mouseY-50);
+  //head 
+  // noStroke()
   fill(100)
-  ellipse(mouseX +40, mouseY +90, mouseX-100, mouseY-100);
-  
+  ellipse(mouseX +140, mouseY +190, mouseX-200, mouseY-100);
+  ellipse(mouseX+300, mouseY+180, mouseX-300, mouseY -80)
  
   //eyes, white
   fill(300);
-  ellipse(mouseX+70,mouseY+100, mouseX/10, mouseY/10);
-  ellipse(mouseX+30, mouseY+100, mouseX/10, mouseY/10);
+  ellipse(mouseX+300,mouseY+200, mouseX/5, mouseY/5);
+  ellipse(mouseX+100, mouseY+200, mouseX/5, mouseY/5);
    //pupila
   noStroke();
   fill(0);
-  ellipse(mouseX +71, mouseY +100, mouseX/20, mouseY/20);
-  ellipse(mouseX +31, mouseY +100, mouseX/20, mouseY/20);
+  ellipse(mouseX +280, mouseY +201, mouseX/10, mouseY/10);
+  ellipse(mouseX +80, mouseY +201, mouseX/10, mouseY/10);
   //grey outline
   stroke(50)
   noFill();
   strokeWeight(5);
-  ellipse(mouseX+70, mouseY+100, mouseX/10, mouseY/10);
-  ellipse(mouseX+30, mouseY+100, mouseX/10, mouseY/10);
+  ellipse(mouseX+300, mouseY+200, mouseX/5, mouseY/5);
+  ellipse(mouseX+100, mouseY+200, mouseX/5, mouseY/5);
  
   
 
