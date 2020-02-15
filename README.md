@@ -14,4 +14,7 @@
 * [sketch 3](https://sheenamdas.github.io/Digital-Craft-Spring-20/week_3/sketch_3/index.html)
 * [sketch 4](https://sheenamdas.github.io/Digital-Craft-Spring-20/week_3/sketch_4/index.html)
 
+## Homework Week 4
+* [laser cut draft](https://sheenamdas.github.io/Digital-Craft-Spring-20/week_4/laser_cut_draft/index.html)
+
 ![alternate text](web adress)
