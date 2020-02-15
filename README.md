@@ -12,5 +12,6 @@
 * [sketch 1](https://sheenamdas.github.io/Digital-Craft-Spring-20/week_3/sketch_1/index.html)
 * [sketch 2](https://sheenamdas.github.io/Digital-Craft-Spring-20/week_3/sketch_2/index.html)
 * [sketch 3](https://sheenamdas.github.io/Digital-Craft-Spring-20/week_3/sketch_3/index.html)
+* [sketch 4](https://sheenamdas.github.io/Digital-Craft-Spring-20/week_3/sketch_4/index.html)
 
 ![alternate text](web adress)
