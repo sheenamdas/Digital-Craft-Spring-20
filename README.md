@@ -18,6 +18,6 @@
 * [laser cut draft](https://sheenamdas.github.io/Digital-Craft-Spring-20/week_4/laser_cut_draft/index.html)
 
 ## Homework Week 5
-* [laser cut draft](https://portfolio.newschool.edu/sheenamdas/2020/02/26/laser-cut-project/)
+* [laser cut project](https://portfolio.newschool.edu/sheenamdas/2020/02/26/laser-cut-project/)
 
 ![alternate text](web adress)
