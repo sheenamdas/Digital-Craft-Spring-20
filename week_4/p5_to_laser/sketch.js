@@ -7,7 +7,7 @@ function setup() {
 
 
 function draw() {
-background(200) 
+background(500) 
  mouseX=400
   mouseY=400
 
@@ -163,6 +163,7 @@ ellipse(mouseX, mouseY, mouseX, mouseY);
 
 
 }
+
 function mousePressed(){
 save();
 }
