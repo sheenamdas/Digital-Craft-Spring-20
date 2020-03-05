@@ -21,4 +21,7 @@
 ## Homework Week 5
 * [laser cut project](https://portfolio.newschool.edu/sheenamdas/2020/02/26/laser-cut-project/)
 
+## Homework Week 6
+* [sinking_countdown](https://sheenamdas.github.io/Digital-Craft-Spring-20/sinking_countdown/index.html)
+
 ![alternate text](web adress)
