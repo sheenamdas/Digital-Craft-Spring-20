@@ -23,6 +23,9 @@
 ## Homework Week 6
 * [sinking_countdown](https://sheenamdas.github.io/Digital-Craft-Spring-20/sinking_countdown/index.html)
 
+## Homework Week 7
+* [3D model](https(https://sheenamdas.github.io/Digital-Craft-Spring-20/3d model/index.html)
+
 ## Extra Sketches
 * [interactive poem](https://sheenamdas.github.io/Digital-Craft-Spring-20/extra_sketches/interactive_poem/index.html)
 
